@@ -302,8 +302,7 @@ div.img3 {
         border:1px solid #cccccc;
         width:90%; 
       } 
-
-      .gridContainer {
+       .gridContainer {
             display:grid; 
             grid-template-columns: auto;
             justify-content: center; 
@@ -326,13 +325,41 @@ div.img3 {
             
           }
 
-    
 
-      }
+ @media screen and (max-width:768px) {
 
-      
-    
 
-   
+  .container1 {
+    width:50%;
+    margin-left:5%
+    height:300px; 
+}        
+
+.heading1 {
+    width:14%; 
+    font-size:20px;
+    margin-left:15%; 
 
 }
+
+.navcontainer {
+   
+    margin-left: 15%; 
+    padding:30px;
+}
+
+.hr { 
+    border:1px solid #cccccc;
+    width:90%; 
+  } 
+
+
+
+
+
+
+    
+
+
+
+  
